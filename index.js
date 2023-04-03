@@ -14,6 +14,7 @@ saveButton.addEventListener("click",()=>{
     taskList.forEach((element)=>{myArray.push(element.textContent)});
     console.log(myArray);
     localStorage.setItem("Task",JSON.stringify(myArray));
+    alert("Task Saved");
 })
 
 // function to add list element
